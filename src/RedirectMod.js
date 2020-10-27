@@ -12,7 +12,6 @@ function Main (props) {
   const [status, setStatus] = useState('');
 
   // The currently stored value
-  const [currentValue, setCurrentValue] = useState(0);
   const [formState, setFormState] = useState({ addressTo: null, active: false });
 
   const onChange = (_, data) =>
