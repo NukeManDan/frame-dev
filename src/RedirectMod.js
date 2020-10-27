@@ -5,7 +5,6 @@ import { useSubstrate } from './substrate-lib';
 import { TxButton } from './substrate-lib/components';
 
 function Main (props) {
-  const { api } = useSubstrate();
   const { accountPair } = props;
 
   // The transaction submission status
