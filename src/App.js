@@ -20,6 +20,7 @@ import Events from "./Events";
 import Interactor from "./Interactor";
 import Metadata from "./Metadata";
 import NodeInfo from "./NodeInfo";
+import RedirectMod from "./RedirectMod";
 import TemplateModule from "./TemplateModule";
 import Transfer from "./Transfer";
 import Upgrade from "./Upgrade";
@@ -91,7 +92,7 @@ function Main() {
             <Events />
           </Grid.Row>
           <Grid.Row>
-            <TemplateModule accountPair={accountPair} />
+            <RedirectMod accountPair={accountPair} />
           </Grid.Row>
         </Grid>
       </Container>
